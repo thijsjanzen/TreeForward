@@ -21,3 +21,6 @@ no values are returned, output is written to file
 \description{
 simulate tree_forward
 }
+\examples{
+\dontrun{tree_forward(1, 100, 0.01, 0)}
+}

@@ -2373,6 +2373,7 @@ int get_seed() {
 //' @param nu speciation rate
 //' @param S selection
 //' @return no values are returned, output is written to file
+//' @examples \dontrun{tree_forward(1, 100, 0.01, 0)}
 //' @export
 // [[Rcpp::export]]
 int tree_forward(double task_max,

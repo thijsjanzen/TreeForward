@@ -7,6 +7,7 @@
 #' @param nu speciation rate
 #' @param S selection
 #' @return no values are returned, output is written to file
+#' @examples \dontrun{tree_forward(1, 100, 0.01, 0)}
 #' @export
 tree_forward <- function(task_max, JM, nu, S) {
     .Call(`_TreeForward_tree_forward`, task_max, JM, nu, S)
